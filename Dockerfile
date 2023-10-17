@@ -1,5 +1,5 @@
 # Base image
-FROM arm64v8/node:19
+FROM node:19
 
 # Create app directory
 WORKDIR /usr/src/app
